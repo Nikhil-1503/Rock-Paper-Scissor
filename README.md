@@ -1,2 +1,2 @@
 # Rock-Paper-Scissor
-Rock paper scissor game
+A Rock paper scissors game created using HTML, CSS and Javascript.
