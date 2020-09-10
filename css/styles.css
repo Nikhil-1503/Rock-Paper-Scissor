@@ -5,12 +5,12 @@ box-sizing: border-box;
 }
 
 header{
-background: white;
+background-color: white;
 padding: 25px;
 }
 
 header > h1{
-color: black;
+color: #24272E;
 text-align: center;
 text-shadow: 2px 2px 5px grey;
 font-family: Arial, Helvetica, sans-serif;
@@ -52,6 +52,20 @@ left: -33px;
 position: absolute;
 top: 30px;
 right: -50px;
+}
+
+.result_image{
+position: absolute;
+display: block;
+top: 5px;
+}
+
+#user_hand{
+left: -200px;
+}
+
+#comp_hand{
+right: -200px;
 }
 
 .result{
