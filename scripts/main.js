@@ -7,6 +7,9 @@ const result_p=document.querySelector(".result>p");
 const rock_div=document.getElementById("r");
 const paper_div=document.getElementById("p");
 const scissor_div=document.getElementById("s");
+const user_hand=document.querySelector(".user_hand");
+const comp_hand=document.querySelector(".comp_hand");
+
 
 const refreshButton = document.querySelector('.refresh-button');
 const refreshPage = () => {
@@ -67,6 +70,8 @@ function game(userChoice){
 		userdraw(userChoice,computerChoice);
 		break;	
 	}
+	user_hand.src= `./images/${userChoice}.png`;
+	comp_hand.src= `./images/${computerChoice}.png`;
 }
 
 function main(){
