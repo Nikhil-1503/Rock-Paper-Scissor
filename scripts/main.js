@@ -70,8 +70,8 @@ function game(userChoice){
 		userdraw(userChoice,computerChoice);
 		break;	
 	}
-	user_hand.src= `./images/${userChoice}.png`;
-	comp_hand.src= `./images/${computerChoice}.png`;
+	user_hand.src= `images/${userChoice}.png`;
+	comp_hand.src= `images/${computerChoice}.png`;
 }
 
 function main(){
